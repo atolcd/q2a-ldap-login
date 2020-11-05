@@ -82,7 +82,7 @@ class ldap_login_admin_form {
 
       'fields' => array(
         array(
-          'label' => 'Hostname for LDAP Server (ldap://x.y.z for non-SSL, ldaps://x.y.x for SSL)',
+          'label' => 'Hostname for LDAP Server (ldap://x.y.z for non-SSL, ldaps://x.y.z for SSL)',
           'type' => 'text',
           'value' => qa_opt('ldap_login_hostname'),
           'tags' => 'name="ldap_login_hostname_field"',
@@ -140,7 +140,7 @@ class ldap_login_admin_form {
 
         array(
           'id' => 'ldap_login_ad_pwd_display',
-          'label' => 'Password for AD binging accout',
+          'label' => 'Password for AD binding account',
           'type' => 'text',
           'value' => qa_opt('ldap_login_ad_pwd'),
           'tags' => 'name="ldap_login_ad_pwd_field"',
